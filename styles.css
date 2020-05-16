@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffcf2;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+
+  /* rich black 0D1321 /// */
+}
+
+#mainNavbar .nav-link {
+  color: #fffcf2;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.social-media-nav {
+  margin-left: 400px;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #0d1321;
+  transition: 0.3s;
+}
+
+.navbar.scrolled {
+  background: #eb5e28;
+  transition: background 500ms;
+}
+
+.pageTitle {
+  margin: 25px auto;
+  width: 25%;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #0d1321;
+  border-bottom: 5px solid #eb5e28;
+}
+
+p {
+  color: #0d1321;
+}
+
+.bg-block {
+}
+
+em {
+  font-size: 1rem;
+}
+
+#button {
+  border: 2px solid #0d1321;
+  color: #0d1321;
+  font-size: 1rem;
+}
+
+#button:hover {
+  background-color: #eb5e28;
+  color: white;
+  transition: 0.3s;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .pageTitle {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand {
+    visibility: hidden;
+  }
+
+  #mainNavbar {
+    background-color: #eb5e28;
+  }
+
+  #hero {
+    margin-top: 50px;
+  }
+}
+
+@include media-breakpoint-only(xs) {
+  .btn-block-xs-only {
+    display: block;
+    width: 100%;
+  }
+}
