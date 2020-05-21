@@ -8,6 +8,8 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="icon" type="image/png" href="imgs/sys-icon.png" />
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -15,24 +17,56 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <!-- slick CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
 
     <!-- custom CSS -->
     <link rel="stylesheet" href="styles.css" />
+    <!-- font awesome css -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <!-- Font -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Montserrat:wght@200;300;700;900&display=swap"
       rel="stylesheet"
     />
 
-    <title>Settle Your Scores</title>
+    <title>Settle Your Scores | Official Site</title>
   </head>
 
   <body>
     <nav
       id="mainNavbar"
       class="navbar navbar-dark navbar-expand-md py-0 fixed-top text-center"
-    ><div class='d-flex w-100 justify-content-between'>
-      <a href="#" class="navbar-brand n-sm-none"><img src="imgs/sys-logo-one-white.png" alt=""></a>
+    >
+      <div>
+        <a
+          href="https://www.facebook.com/settleyourscores/"
+          class="navbar-brand"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/settleyourscores/"
+          class="navbar-brand"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/syspoppunk/" class="navbar-brand"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
       <button
         class="navbar-toggler"
         data-toggle="collapse"
@@ -41,192 +75,428 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
       <!-- <div class="collapse navbar-collapse"></div> -->
       <div class="collapse navbar-collapse" id="navLinks">
-        <ul class="navbar-nav mx-auto text-center">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="" class="nav-link">VIDEOS</a>
+            <a href="#shop" class="nav-link">SHOP</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">MUSIC</a>
+            <a href="#videos" class="nav-link">VIDEOS</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">SHOP</a>
+            <a href="#music" class="nav-link">MUSIC</a>
           </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">SHOWS</a>
+          <li class="nav-item mr-5">
+            <a href="#shows" class="nav-link">SHOWS</a>
           </li>
-          
         </ul>
-      </div>
-
-      <div class='d-flex w-100'>
       </div>
     </nav>
 
-    <div class="container-fluid px-0">
-      <img src="imgs/hero-promo2.jpg" alt="" id='hero' class="img-fluid" />
+    <div class="container-fluid px-0 pb-0 mb-0">
+      <img
+        src="imgs/hero4.jpg"
+        alt="Settle Your Scores"
+        id="hero"
+        class="img-fluid"
+      />
     </div>
 
-    <section class="container-fluid">
-      <div id="#videos-header">
-        <h2 class="pageTitle text-center mt-4">VIDEOS</h2>
-      </div>
-      <div class="row mt-4">  <!-- video/text-->
-        <div class="col-lg-8 iframe-container">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe
-              class="embed-responsive-item"
-              src="https://www.youtube.com/embed/ssgh6_kp8Pc"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-        <div class="col-lg-4 text-center pt-lg-5 mt-lg-5">
-          <p>
-            Settle Your Scores -
-            <br />
-            Stuck in the Suburbs
-            <br />
-            <em>Share: </em>
-            <br />
-            <br />
-            <a href="https://www.youtube.com/results?search_query=settle+your+scores type="button"
-            class="btn btn-lg btn-light btn-outline-dark d-block d-md-inline-block"
-            id="button"">watch more</a>
-          </p>
-        </div>
-      </div>  <!-- videos row end-->
-      <div class='bg-block'>
-        <div id="#music-header">
-          <h2 class="pageTitle text-center mt-4">MUSIC</h2>
-        </div>
-        <div class="row justify-content-center">
-          <div id="carouselExampleControls" class="carousel slide mx-5" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class='row'>
-                  <div class='col-xs-0 col-lg-2'></div>
-                  <div class='col-lg-5'>
-                    <img class="d-block w-100" src="imgs/better-luck-tomorrow.jpg" alt="Better Luck Tomorrow">
-                  </div>
-                  <div class='col-lg-4 text-center pt-lg-5 mt-lg-5 mt-3'
-                    id='album-text'>
-                    <p>Better Luck Tomorrow</p>
-                    </br>
-                    <a href="https://music.apple.com/us/album/better-luck-tomorrow/1458865126 type="button"
-                    class="btn btn-lg btn-light btn-outline-dark"
-                    id="button"">listen now</a>
-                  </div>
-                  <div class='col-xs-0 col-lg-1'></div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class='row'>
-                  <div class='col-xs-0 col-lg-2'></div>
-                  <div class='col-lg-5'>
-                    <img class="d-block w-100" src="imgs/the-wilderness.jpg" alt="The Wilderness">
-                  </div>
-                  <div class='col-lg-4 text-center pt-lg-5 mt-lg-5 mt-3'
-                  id='album-text'>
-                    <p>The Wilderness</p>
-                </br>
-                    <a href="https://music.apple.com/us/album/the-wilderness/1074379425" class='button button-2'>listen now</a>
-                  </div>
-                  <div class='col-xs-0 col-lg-1'></div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class='row'>
-                  <div class='col-xs-0 col-lg-2'></div>
-                  <div class='col-lg-5'>
-                    <img class="d-block w-100" src="imgs/unwritten.jpg" alt="Unwritten">
-                  </div>
-                  <div class='col-lg-4 text-center pt-lg-5 mt-lg-5 mt-3'
-                  id='album-text'>
-                    <p>Unwritten</p>
-                </br>
-                    <a href="https://music.apple.com/us/album/unwritten-single/1481302343 type="button"
-                    class="btn btn-lg btn-light btn-outline-dark"
-                    id="button"">listen now</a>
-                  </div>
-                  <div class='col-xs-0 col-lg-1'></div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class='row'>
-                  <div class='col-xs-0 col-lg-2'></div>
-                  <div class='col-lg-5'>
-                    <img class="d-block w-100" src="imgs/my-reason.png" alt="My Reason to Come Back Home 2: The Electric Boogaloo">
-                  </div>
-                  <div class='col-lg-4 text-center pt-lg-5 mt-lg-5 mt-3'
-                  id='album-text'>
-                    <p>My Reason to Come Back Home 2: The Electric Boogaloo</p>
-                </br>
-                    <a href="https://music.apple.com/us/album/my-reason-to-come-back-home-2-electric-boogaloo-single/1474703953 type="button"
-                    class="btn btn-lg btn-light btn-outline-dark"
-                    id="button"">listen now</a>
-                  </div>
-                  <div class='col-xs-0 col-lg-1'></div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class='row'>
-                  <div class='col-xs-0 col-lg-2'></div>
-                  <div class='col-lg-5'>
-                    <img class="d-block w-100" src="imgs/xmas-exile.jpg" alt="xmas exile">
-                  </div>
-                  <div class='col-lg-4 text-center pt-lg-5 mt-lg-5 mt-3'
-                  id='album-text'>
-                    <p>Xmas Exile</p>
-                </br>
-                    <a href="https://music.apple.com/us/album/xmas-exile-single/14446874003 type="button"
-                    class="btn btn-lg btn-light btn-outline-dark"
-                    id="button"">listen now</a>
-                  </div>
-                  <div class='col-xs-0 col-lg-1'></div>
-                </div>
-              </div>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">
+      <i class="fas fa-angle-double-up"></i>
+    </button>
 
+    <section id="shop" class="container-fluid px-0">
+      <div class="container-fluid bg-block-light pb-5">
+        <div>
+          <!-- shop title-->
+          <h2 class="pageTitle text-center">SHOP</h2>
+        </div>
 
+        <div class="row pt-3 pt-sm-0 d-flex text-center justify-content-center">
+          <article class="merch-listing col-8 col-md-3">
+            <!-- forest green T-->
+            <a
+              class="merch-title"
+              href="https://settleyourscores.bandcamp.com/merch/hands-forest-green-t-shirt"
+            >
+              <div class="d-flex flex-column">
+                <p>forest green hands t-shirt</p>
+                <p><em>click to view item</em></p>
+              </div>
+            </a>
+
+            <div class="merch-image">
+              <a
+                href="https://settleyourscores.bandcamp.com/merch/hands-forest-green-t-shirt"
+              >
+                <img
+                  width="450"
+                  height="450"
+                  src="imgs/merch-hands-1.jpg"
+                  alt="forest green t-shirt"
+                />
+              </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+          </article>
+
+          <article class="merch-listing col-8 col-md-3">
+            <!-- navy T-->
+            <a
+              class="merch-title"
+              href="https://settleyourscores.bandcamp.com/merch/hands-navy-t-shirt"
+            >
+              <div class="d-flex flex-column">
+                <p>navy hands t-shirt</p>
+                <p><em>click to view item</em></p>
+              </div>
             </a>
-            <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+            <div class="merch-image">
+              <a
+                href="https://settleyourscores.bandcamp.com/merch/hands-navy-t-shirt"
+              >
+                <img
+                  width="450"
+                  height="450"
+                  src="imgs/merch-hands-back.jpg"
+                  alt="navy hands t-shirt"
+                />
+              </a>
+            </div>
+          </article>
+
+          <article class="merch-listing col-8 col-md-3">
+            <!-- stuck in the suburbs T-->
+            <a
+              class="merch-title"
+              href="https://settleyourscores.bandcamp.com/merch/stuck-in-the-suburbs-tie-dye-t-shirt"
+            >
+              <div class="d-flex flex-column">
+                <p>stuck in the suburbs t-shirt</p>
+                <p><em>click to view item</em></p>
+              </div>
             </a>
+            <div class="merch-image">
+              <a
+                href="https://settleyourscores.bandcamp.com/merch/stuck-in-the-suburbs-tie-dye-t-shirt"
+              >
+                <img
+                  width="450"
+                  height="450"
+                  src="imgs/merch-stuck-back.jpg"
+                  alt="stuck in the suburbs t shirt"
+                />
+              </a>
+            </div>
+          </article>
+
+          <article class="merch-listing col-8 col-md-3">
+            <!-- pizza T -->
+            <a
+              class="merch-title"
+              href="https://merchnow.com/products/v2/298692/pizza-maroon"
+            >
+              <div class="d-flex flex-column">
+                <p>Pizza t-shirt</p>
+                <p><em>click to view item</em></p>
+              </div>
+            </a>
+            <div class="merch-image">
+              <a href="https://merchnow.com/products/v2/298692/pizza-maroon">
+                <img
+                  width="450"
+                  height="450"
+                  src="imgs/pizza-T.jpeg"
+                  alt="Pizza t shirt"
+                />
+              </a>
+            </div>
+          </article>
+
+          <article class="merch-listing col-8 col-md-3">
+            <!--indigo long sleeve -->
+            <a
+              class="merch-title"
+              href="https://merchnow.com/products/v2/267999/better-luck-tomorrow-indigo"
+            >
+              <div class="d-flex flex-column">
+                <p>Better Luck Tomorrow long sleeve</p>
+                <p><em>click to view item</em></p>
+              </div>
+            </a>
+            <div class="merch-image">
+              <a
+                href="https://merchnow.com/products/v2/267999/better-luck-tomorrow-indigo"
+              >
+                <img
+                  width="450"
+                  height="450"
+                  src="imgs/indigo-shirt.jpeg"
+                  alt="indigo long sleeve"
+                />
+              </a>
+            </div>
+          </article>
+
+          <article class="merch-listing col-8 col-md-3">
+            <!--cursed cat t -->
+            <a
+              class="merch-title"
+              href="https://merchnow.com/products/v2/268004/flash-cat-black"
+            >
+              <div class="d-flex flex-column">
+                <p>black cat t-shirt</p>
+                <p><em>click to view item</em></p>
+              </div>
+            </a>
+            <div class="merch-image">
+              <a href="https://merchnow.com/products/v2/268004/flash-cat-black">
+                <img
+                  width="450"
+                  height="450"
+                  src="imgs/black-cat-merch.jpeg"
+                  alt="black cat t shirt"
+                />
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- shop end -->
+
+    <!-- nice bg pic -->
+    <section class="container-fluid px-0 promo-shot">
+      <div class="d-none d-md-inline container-fluid"></div>
+    </section>
+
+    <section id="videos" class="container-fluid px-0">
+      <div class="container-fluid bg-block">
+        <!-- video title-->
+        <div>
+          <h2 class="pageTitle text-center">VIDEOS</h2>
+        </div>
+
+        <di class="row mt-4">
+          <!-- video/text-->
+          <div class="col-lg-8 iframe-container">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/ssgh6_kp8Pc"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center pt-lg-5 mt-lg-5">
+            <p class="text-center">
+              Settle Your Scores -
+              <br />
+              Stuck in the Suburbs
+              <br />
+              <em>watch more on</em>
+              <br />
+              <a
+                href="https://www.youtube.com/results?search_query=settle+your+scores"
+              >
+                <img
+                  alt="Settle Your Scores on youtube"
+                  src="imgs/youtube.png"
+                />
+              </a>
+            </p>
+          </div>
+        </di>
+      </div>
+    </section>
+    <!-- videos row end-->
+
+    <section class="container-fluid px-0" id="music">
+      <div class="container-fluid bg-block">
+        <div>
+          <h2 class="pageTitle text-center">MUSIC</h2>
+        </div>
+
+        <div class="d-flex justify-content-center my-4">
+          <a href="https://open.spotify.com/artist/4QXKSmZgWNMDbQBidvuh4O"
+            ><i class="fab fa-spotify px-4 stream-icon"></i
+          ></a>
+          <a
+            href="https://music.apple.com/us/artist/settle-your-scores/959803219"
+            ><i class="fab fa-apple px-4 stream-icon"></i
+          ></a>
+          <a
+            href="https://play.google.com/store/music/artist/Settle_Your_Scores?id=Auajagxwtivkaewoavojs6tdz6i&hl=en_US"
+            ><i class="fab fa-google-play px-4 stream-icon"></i
+          ></a>
+          <a
+            href="https://music.amazon.com/artists/B00SIJ6WQQ/settle-your-scores"
+            ><i class="fab fa-amazon px-4 stream-icon"></i
+          ></a>
+        </div>
+
+        <!--             MUSIC SLIDER               -->
+
+        <div id="slide-show" class="container-fluid">
+          <div class="slick mx-lg-5">
+            <div>
+              <img
+                class="col-10 col-lg-8 mx-auto"
+                src="imgs/better-luck-tomorrow.jpg"
+                alt="Better Luck Tomorrow Album"
+              />
+              <div class="col-12 mt-2">
+                <a
+                  class="button mx-auto d-flex justify-content-center align-items-center"
+                  href="https://music.apple.com/gb/album/better-luck-tomorrow/1458865126"
+                  >LISTEN</a
+                >
+              </div>
+            </div>
+
+            <div>
+              <img
+                class="col-10 col-lg-8 mx-auto"
+                src="imgs/the-wilderness.jpg"
+                alt="The Wilderness Album"
+              />
+              <div class="col-12 mt-2">
+                <a
+                  class="button mx-auto d-flex justify-content-center align-items-center"
+                  href="https://music.apple.com/gb/album/the-wilderness/1074379425"
+                  >LISTEN</a
+                >
+              </div>
+            </div>
+
+            <div>
+              <img
+                class="col-10 col-lg-8 mx-auto"
+                src="imgs/unwritten.jpg"
+                alt="Unwritten Album"
+              />
+              <div class="col-12 mt-2">
+                <a
+                  class="button mx-auto d-flex justify-content-center align-items-center"
+                  href="https://music.apple.com/gb/album/unwritten-single/1481302343"
+                  >LISTEN</a
+                >
+              </div>
+            </div>
+
+            <div>
+              <img
+                class="col-10 col-lg-8 mx-auto"
+                src="imgs/my-reason.png"
+                alt="My Reason To Come Back Home Pt 2: Electric Boogagloo Artwork"
+              />
+              <div class="col-12 mt-2">
+                <a
+                  class="button mx-auto d-flex justify-content-center align-items-center"
+                  href="https://music.apple.com/gb/album/my-reason-to-come-back-home-2-electric-boogaloo-single/1474703953"
+                  >LISTEN</a
+                >
+              </div>
+            </div>
+
+            <div>
+              <img
+                class="col-10 col-lg-8 mx-auto"
+                src="imgs/xmas-exile.jpg"
+                alt="Xmas Exile Artwork"
+              />
+              <div class="col-12 mt-2">
+                <a
+                  class="button mx-auto d-flex justify-content-center align-items-center"
+                  href="https://music.apple.com/gb/album/xmas-exile-single/1444687400"
+                  >LISTEN</a
+                >
+              </div>
+            </div>
           </div>
         </div>
-      </div> <!-- end of music carousel -->
+        <!--         END OF MUSIC SLIDER        -->
 
-      <div id="#shop-header">
-        <h2 class="pageTitle text-center mt-4">SHOP</h2>
+        <!--         TOURS SHOWS START          -->
+        <div class="container-fluid pb-">
+          <div id="shows">
+            <h2 class="pageTitle text-center">SHOWS</h2>
+            <div class="row bg-live mt-4">
+              <div class="col-lg-6">
+                <script
+                  charset="utf-8"
+                  src="https://widget.bandsintown.com/main.min.js"
+                ></script>
+                <a
+                  class="bit-widget-initializer"
+                  data-artist-name="Settle Your Scores"
+                  data-display-local-dates="true"
+                  data-display-past-dates="true"
+                  data-auto-style="false"
+                  data-text-color="#E0AF35"
+                  data-link-color="#fffcf2"
+                  data-background-color="rgba(0,0,0,0)"
+                  data-display-limit="15"
+                  data-display-start-time="true"
+                  data-link-text-color="#E0AF35"
+                  data-display-lineup="false"
+                  data-display-play-my-city="true"
+                  data-separator-color="rgba(124,124,124,0.25)"
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class='row justify-content-center'> <!-- shop start-->
-        <div class='col-lg-4 col-sm-6 col-xs-12 merch-item'>
-          <a href="https://merchnow.com/products/v2/298692/pizza-maroon"><img src="imgs/barber-T.jpeg" alt="..." class="img-fluid"></a>
-          <div class='fadedbox'>
-            <div class='title text'>view item</div>
+      <div class="container-fluid bg-block-light pt-4 pb-4">
+        <div class="row">
+          <img
+            class="img-fluid mx-auto"
+            src="imgs/sys-logo-one-white.png"
+            alt="Settle Your Scores white logo"
+          />
+        </div>
+        <div class="d-flex justify-content-center my-4">
+          <a
+            href="https://www.facebook.com/settleyourscores/"
+            class="footer-icons"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/settleyourscores/"
+            class="footer-icons"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/syspoppunk/" class="footer-icons"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/results?search_query=settle+your+scores"
+            class="footer-icons"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+
+        <div class="row footer-text mb-4">
+          <div class="col-12 text-center">
+            contact us at
+            <a class="email" href="mailto:settleyourscoresband@gmail.com"
+              >settleyourscoresband@gmail.com</a
+            >
           </div>
         </div>
 
-        <div class='col-lg-4 col-sm-6 col-xs-12'>
-          <img src="imgs/owl-T.jpeg" alt="..." class="img-thumbnail">
+        <div class="row footer-text">
+          <div class="col-6 text-center">
+            © 2019 Settle Your Scores. All Rights Reserved
+          </div>
+          <div class="col-6 text-center">built by: Jeffrey Borer</div>
         </div>
-
-        <div class='col-lg-4 col-sm-6 col-xs-12'>
-          <img src="imgs/pizza-T.jpeg" alt="..." class="img-thumbnail">
-        </div>
-
       </div>
     </section>
 
-    
     <!-- -->
     <!-- -->
     <!-- -->
@@ -251,6 +521,11 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+
+    <!-- slick slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script src="appSYS.js"></script>
 
     <script>
       $(function () {
